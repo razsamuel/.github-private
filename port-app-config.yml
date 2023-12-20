@@ -5,7 +5,7 @@ resources:
     port:
       entity:
         mappings:
-          identifier: ".name" # T he E not ity ident ify ier will be the reposit ory n ame.
+          identifier: ".name" # T he E not ity ident ify ier will be the reposit ory n a me.
           title: '"global"'
           blueprint: '"repository"'
           properties:
