@@ -1,7 +1,7 @@
 resources:
   - kind: repository
     selector:
-      query: "true" # J  Q bo o lean query. If evaluated to false - skip syncing the o bject.
+      query: "true" # J  Q bo o lean query. If eva luated to false - skip syncing the o bject.
     port:
       entity:
         mappings:
