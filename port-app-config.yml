@@ -1,7 +1,7 @@
 resources:
   - kind: repository
     selector:
-      query: "true" # J  Q bo o lean query. If eva lua ted to fall se - sk ip sy nc I n g t he e o  bj e c t.
+      query: "true" # J  Q bo o lean query. If eva lua ted to fall se - sk ip sy nc I n g t he e o  bj  e c t.
     port:
       entity:
         mappings:
