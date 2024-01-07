@@ -1,1 +1,1 @@
-# .github-pri vate
+# .github-private
