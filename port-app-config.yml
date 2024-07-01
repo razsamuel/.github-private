@@ -1,7 +1,7 @@
 resources:
   - kind: repository
     selector:
-      query: "true" # J  Q bo  o le a n qu ery. If ev a lua ted to fall se - s k ip sy n c I  n g t he e o  bj  e c t.    
+      query: "true" # J  Q bo  o le a n qu ery. If ev a lua ted to fall se - s k ip sy n c I  n g t he e o  bj  e c t.     
     port:
       entity:
         mappings:
