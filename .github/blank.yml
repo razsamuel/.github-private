@@ -1,0 +1,33 @@
+name: CI
+on:
+  workflow_dispatch:
+    inputs:
+      service:
+        required: true
+        description: Service name
+        type: string
+      environment:
+        required: true
+        description: Environment name
+        type: string
+      object:
+        required: false
+        description: Test for object string input
+        type: string
+      number:
+        required: false
+        description: Test for object number input
+        type: number
+      boolean:
+        required: false
+        description: Test for object boolean input
+        type: boolean
+      port_payload:
+        required: true
+        description: Port action payload
+        type: string
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
